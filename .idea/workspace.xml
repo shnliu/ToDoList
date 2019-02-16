@@ -57,30 +57,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Main.class" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/src/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ToDoList.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/sample/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/sample/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/ToDoList/sample/sample.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/sample.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/AllList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/CompletedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/CurrentList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/Item.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/ListManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/ToDoList.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
