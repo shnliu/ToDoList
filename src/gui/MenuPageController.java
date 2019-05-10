@@ -1,5 +1,6 @@
 package gui;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.stage.Window;
@@ -18,5 +19,12 @@ public class MenuPageController {
     // this method is called by clicking the button
     @FXML
     public void switchScene(){
-        main.setScene(scene2);}
+        main.setScene(scene2);
+    }
+
+    @FXML
+    public void quitButtonAction(){
+        Platform.exit();
+    }
+
 }
