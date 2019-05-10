@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.*;
 import javafx.scene.*;
 import javafx.scene.layout.*;
-import javafx.scene.control.*;
 
 import java.io.IOException;
 
@@ -33,14 +32,14 @@ public class Main extends Application {
 
             // Load the fxml files and their controllers
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("scene1.fxml"));
+            loader.setLocation(Main.class.getResource("menupage.fxml"));
             pane1 = loader.load();
-            Scene1Controller controller1 = loader.getController();
+            MenuPageController controller1 = loader.getController();
 
             loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("scene2.fxml"));
+            loader.setLocation(Main.class.getResource("listpage.fxml"));
             pane2 = loader.load();
-            Scene2Controller controller2 = loader.getController();
+            ListPageController controller2 = loader.getController();
             // The scenes are based on what has been loaded from the .fxml files
             Scene scene1 = new Scene(pane1);
             Scene scene2 = new Scene(pane2);

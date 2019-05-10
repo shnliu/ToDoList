@@ -11,4 +11,8 @@ public class ListManager {
         allDoList = new AllDoList();
     }
 
+    public CurrentList getCurrentList (){
+        return currentList;
+    }
+
 }

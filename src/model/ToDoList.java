@@ -27,4 +27,9 @@ public class ToDoList {
     public void removeItem(Item item) {
         this.listOfItems.remove(item);
     }
+
+    public List<Item> getLOI(){
+        return listOfItems;
+    }
+
 }

@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.stage.Window;
 
-public class Scene1Controller {
+public class MenuPageController {
 
     private Scene scene2;
     private Main main;

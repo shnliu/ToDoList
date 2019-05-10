@@ -1,62 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="working on todolist class and listmanager">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/Scene1Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/Scene2Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/scene1.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/scene2.fxml" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/androidTest/java/com/example/snliu/todolist/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/java/com/example/snliu/todolist/Display.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/drawable/ic_home_black_24dp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/layout/activity_display.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/menu/navigation.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/app/src/test/java/com/example/snliu/todolist/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../ASPersonalProjects/ToDoList/settings.gradle" afterPath="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="got scenes working">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/gui/ListPageController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/gui/Controller.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/gui/Main.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/gui/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/gui/sample.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/model/Item.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/model/Item.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/model/ListManager.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/model/ListManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/model/ToDoList.class" afterPath="$PROJECT_DIR$/out/production/ToDoList/model/ToDoList.class" />
       <change beforePath="$PROJECT_DIR$/src/gui/Main.java" afterPath="$PROJECT_DIR$/src/gui/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/gui/sample.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Scene1Controller.java" afterPath="$PROJECT_DIR$/src/gui/MenuPageController.java" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Scene2Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gui/scene1.fxml" afterPath="$PROJECT_DIR$/src/gui/menupage.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/gui/scene2.fxml" afterPath="$PROJECT_DIR$/src/gui/listpage.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/model/Item.java" afterPath="$PROJECT_DIR$/src/model/Item.java" />
+      <change beforePath="$PROJECT_DIR$/src/model/ListManager.java" afterPath="$PROJECT_DIR$/src/model/ListManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/model/ToDoList.java" afterPath="$PROJECT_DIR$/src/model/ToDoList.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,43 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2027#2028#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene1Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/Scene1Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene2Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/Scene2Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="549">
+              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,11 +84,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scene1.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/scene1.fxml">
+      <file leaf-file-name="MenuPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/MenuPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListPageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/ListPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/ListManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menupage.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/menupage.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,34 +140,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scene2.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/scene2.fxml">
+      <file leaf-file-name="listpage.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/listpage.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ToDoList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="175">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
@@ -209,6 +168,43 @@
                 <element signature="e#472#473#0" expanded="true" />
                 <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompletedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/CompletedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/CurrentList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,26 +241,28 @@
         <option value="$PROJECT_DIR$/src/model/AllList.java" />
         <option value="$PROJECT_DIR$/src/model/CompletedList.java" />
         <option value="$PROJECT_DIR$/src/model/CurrentList.java" />
-        <option value="$PROJECT_DIR$/src/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/model/ListManager.java" />
-        <option value="$PROJECT_DIR$/src/model/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/model/Main.java" />
         <option value="$PROJECT_DIR$/src/model/Runner.java" />
         <option value="$PROJECT_DIR$/src/gui/Controller.java" />
         <option value="$PROJECT_DIR$/src/gui/todolist.fxml" />
-        <option value="$PROJECT_DIR$/src/gui/Scene2Controller.java" />
-        <option value="$PROJECT_DIR$/src/gui/scene2.fxml" />
         <option value="$PROJECT_DIR$/src/gui/Scene1Controller.java" />
         <option value="$PROJECT_DIR$/src/gui/scene1.fxml" />
         <option value="$PROJECT_DIR$/src/gui/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/ListManager.java" />
+        <option value="$PROJECT_DIR$/src/model/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/gui/scene2.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/Scene2Controller.java" />
+        <option value="$PROJECT_DIR$/src/gui/ListController.java" />
+        <option value="$PROJECT_DIR$/src/gui/ListPageController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
+    <option name="x" value="202" />
     <option name="y" value="23" />
-    <option name="width" value="882" />
+    <option name="width" value="1070" />
     <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -286,9 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +312,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,14 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550642108151</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="got scenes working">
+      <created>1557385522861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557385522861</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="23" width="882" height="723" extended-state="0" />
+    <frame x="202" y="23" width="1070" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -555,12 +560,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3789127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4398682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28328612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21486643" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17635843" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -591,7 +596,8 @@
     <MESSAGE value="working on todolist class and listmanager" />
     <MESSAGE value="main isn't printing rip" />
     <MESSAGE value="changed email and runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed email and runner" />
+    <MESSAGE value="got scenes working" />
+    <option name="LAST_COMMIT_MESSAGE" value="got scenes working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -602,25 +608,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
     <entry file="file://$PROJECT_DIR$/src/model/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -643,10 +632,10 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -691,25 +680,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
     <entry file="file://$PROJECT_DIR$/src/model/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -724,6 +696,8 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,10 +708,10 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,6 +738,8 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -792,25 +768,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
     <entry file="file://$PROJECT_DIR$/src/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -825,10 +784,10 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,6 +822,8 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,25 +844,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
     <entry file="file://$PROJECT_DIR$/src/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -916,46 +860,45 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/MainClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="116">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MainClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/CurrentList.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="116">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/AllDoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -968,69 +911,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ListManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AllDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/model/CurrentList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/todolist.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
@@ -1041,14 +933,40 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/scene1.fxml">
+    <entry file="file://$PROJECT_DIR$/src/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ListManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/listpage.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1056,34 +974,24 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Scene2Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/MenuPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Scene1Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/menupage.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/scene2.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1093,14 +1001,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="549">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/ListPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
           </folding>
         </state>
       </provider>
