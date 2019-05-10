@@ -5,7 +5,6 @@ import javafx.scene.Scene;
 import model.*;
 import javafx.scene.control.*;
 import javafx.collections.*;
-import javafx.application.*;
 
 public class ListPageController {
 
@@ -15,10 +14,6 @@ public class ListPageController {
     private ListView<String> currentlv;
     @FXML
     private ListView<String> completelv;
-
-
-    @FXML
-    private Button addbutton;
     @FXML
     private TextField textfield;
     @FXML
@@ -44,35 +39,37 @@ public class ListPageController {
         String text = textfield.getText();
         // display.setText(text);
 
-        lm.getCurrentList().addItem(new Item(text));
-        ObservableList<String> olist =FXCollections.observableArrayList();
-        for (Item i: lm.getCurrentList().getLOI()){
+        ToDoList tdList =  lm.getCurrentList();
+        addToLV(text, tdList, currentlv);
+    }
+
+    private void addToLV(String text, ToDoList tdList, ListView<String> lv) {
+        tdList.addItem(new Item(text));
+        ObservableList<String> olist = FXCollections.observableArrayList();
+        for (Item i: tdList.getLOI()){
             olist.add(i.getName());
         }
-        currentlv.setItems(olist);
+        lv.setItems(olist);
     }
 
     // deletes an item from any list view via select
     @FXML
     private void handleDeleteButtonAction() {
-        String selectedCurr = currentlv.getSelectionModel().getSelectedItem();
-        String selectedComp = completelv.getSelectionModel().getSelectedItem();
+        try {
+            String selectedCurr = currentlv.getSelectionModel().getSelectedItem();
+            String selectedComp = completelv.getSelectionModel().getSelectedItem();
 
-        // delete from currentlv
-        lm.getCurrentList().removeItem(new Item(selectedCurr));
-        ObservableList<String> olist =FXCollections.observableArrayList();
-        for (Item i: lm.getCurrentList().getLOI()){
-            olist.add(i.getName());
-        }
-        currentlv.setItems(olist);
+            // delete from currentlv
+            removeFromLV(selectedCurr, lm.getCurrentList(), currentlv);
 
-        // delete from completed lv
-        lm.getCompletedList().removeItem(new Item(selectedComp));
-        ObservableList<String> clist =FXCollections.observableArrayList();
-        for (Item i: lm.getCompletedList().getLOI()){
-            clist.add(i.getName());
+            // delete from completed lv
+            removeFromLV(selectedComp, lm.getCompletedList(), completelv);
         }
-        completelv.setItems(clist);
+        catch (Exception e) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setContentText("Item unable to be deleted. Please delete another item instead.");
+            alert.showAndWait();
+        }
     }
 
     // marks an item as complete (by adding it to complete list view) via select
@@ -83,22 +80,11 @@ public class ListPageController {
             String selected = currentlv.getSelectionModel().getSelectedItem();
 
             // removes item from current list
-            lm.getCurrentList().removeItem(new Item(selected));
-            ObservableList<String> olist = FXCollections.observableArrayList();
-            for (Item i : lm.getCurrentList().getLOI()) {
-                olist.add(i.getName());
-            }
-            currentlv.setItems(olist);
+            removeFromLV(selected, lm.getCurrentList(), currentlv);
 
             // adds item to completed list
-            lm.getCompletedList().addItem(new Item(selected));
-            ObservableList<String> clist = FXCollections.observableArrayList();
-            for (Item i : lm.getCompletedList().getLOI()) {
-                if (i!=null){
-                    clist.add(i.getName());
-                }
-            }
-            completelv.setItems(clist);
+            addToLV(selected, lm.getCompletedList(), completelv);
+//
         } catch (Exception e) {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setContentText("No Current Item selected. Please add a new Current Item and " +
@@ -106,6 +92,24 @@ public class ListPageController {
             alert.showAndWait();
         }
     }
+
+    private void removeFromLV(String selected, ToDoList tdList, ListView<String> lv) {
+        tdList.removeItem(new Item(selected));
+        ObservableList<String> olist = FXCollections.observableArrayList();
+        for (Item i : tdList.getLOI()) {
+            olist.add(i.getName());
+        }
+        lv.setItems(olist);
+    }
+
+    // issue: can't mark something complete as complete again!!
+    // be able to edit an item
+    // items are effectively just strings rn
+    // be able to sort by priority
+    // be able to see stats
+    // clear, new day, see all functions
+    // dates? as a field of item
+    // check marks when marking complete?
 
 
 }

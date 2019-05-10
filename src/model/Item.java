@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Objects.*;
-
 public class Item {
     String name; // is basically the content
     int uuid; // an unique id

@@ -19,4 +19,9 @@ public class ListManager {
         return completedList;
     }
 
+    public ToDoList getAllDoList (){
+        return allDoList;
+    }
+
+
 }
