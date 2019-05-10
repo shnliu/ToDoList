@@ -2,13 +2,9 @@ package gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
-import javafx.stage.Window;
 import model.*;
 import javafx.scene.control.*;
 import javafx.collections.*;
-import java.awt.event.*;
-
-import javax.xml.soap.Text;
 
 public class ListPageController {
 
@@ -16,11 +12,14 @@ public class ListPageController {
 
     @FXML
     private ListView<String> currentlv;
+    @FXML
+    private ListView<String> completelv;
+
 
     @FXML
     private Button addbutton;
     @FXML
-    private TextField tf;
+    private TextField textfield;
     @FXML
     private Label display;
 
@@ -33,24 +32,16 @@ public class ListPageController {
 
     public void setMain(Main main){this.main = main;}
     public void setScene1(Scene scene1){this.scene1 = scene1;}
+
     // this method is called by clicking the button
     @FXML
     public void goBack(){main.setScene(scene1);}
 
-    @FXML
-    public void setUpCurrentLV(){
-        // ListView<String> list = new ListView<String>();
-        ObservableList<String> olist =FXCollections.observableArrayList ();
-        for (Item i: lm.getCurrentList().getLOI()){
-            olist.add(i.getName());
-        }
-        currentlv.setItems(olist);
-    }
-
+    // adds an item to current list view
     @FXML
     private void handleAddButtonAction() {
-        String text = tf.getText();
-        display.setText(text);
+        String text = textfield.getText();
+        // display.setText(text);
 
         lm.getCurrentList().getLOI().add(new Item(text));
         ObservableList<String> olist =FXCollections.observableArrayList();
@@ -58,17 +49,33 @@ public class ListPageController {
             olist.add(i.getName());
         }
         currentlv.setItems(olist);
-
     }
 
+    // deletes an item from current list view via select
     @FXML
-    public void addButtonFunc(){
-//        lm.getCurrentList().getLOI().add(new Item("hi"));
-//        addbutton.setOnAction(click -> {
-//            String selectedItem = listView.getSelectionModel().getSelectedItem();
-//
-//        });
+    private void handleDeleteButtonAction() {
+        String text = textfield.getText();
+        // display.setText(text);
+
+        lm.getCurrentList().getLOI().remove(text);
+//        ObservableList<String> olist =FXCollections.observableArrayList();
+//        for (Item i: lm.getCurrentList().getLOI()){
+//            olist.add(i.getName());
+//        }
+//        currentlv.setItems(olist);
     }
 
+    // marks an item as complete (by adding it to complete list view) via select
+    @FXML
+    private void handleCheckButtonAction() {
+        String selected = currentlv.getSelectionModel().getSelectedItem();
+
+        lm.getCompletedList().getLOI().add(new Item(selected));
+        ObservableList<String> olist =FXCollections.observableArrayList();
+        for (Item i: lm.getCompletedList().getLOI()){
+            olist.add(i.getName());
+        }
+        completelv.setItems(olist);
+    }
 
 }

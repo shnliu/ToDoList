@@ -11,8 +11,12 @@ public class ListManager {
         allDoList = new AllDoList();
     }
 
-    public CurrentList getCurrentList (){
+    public ToDoList getCurrentList (){
         return currentList;
+    }
+
+    public ToDoList getCompletedList (){
+        return completedList;
     }
 
 }
