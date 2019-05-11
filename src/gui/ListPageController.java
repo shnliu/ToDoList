@@ -6,7 +6,7 @@ import model.*;
 import javafx.scene.control.*;
 import javafx.collections.*;
 
-public class Scene2Controller {
+public class ListPageController {
 
     private ListManager lm;
 
@@ -22,7 +22,7 @@ public class Scene2Controller {
     private Scene scene1;
     private Main main;
 
-    public Scene2Controller(){
+    public ListPageController(){
         lm = new ListManager();
     }
 
