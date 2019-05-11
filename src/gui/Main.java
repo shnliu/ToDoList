@@ -32,14 +32,14 @@ public class Main extends Application {
 
             // Load the fxml files and their controllers
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("menupage.fxml"));
+            loader.setLocation(Main.class.getResource("scene1.fxml"));
             pane1 = loader.load();
-            MenuPageController controller1 = loader.getController();
+            Scene1Controller controller1 = loader.getController();
 
             loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("listpage.fxml"));
+            loader.setLocation(Main.class.getResource("scene2.fxml"));
             pane2 = loader.load();
-            ListPageController controller2 = loader.getController();
+            Scene2Controller controller2 = loader.getController();
             // The scenes are based on what has been loaded from the .fxml files
             Scene scene1 = new Scene(pane1);
             Scene scene2 = new Scene(pane2);
